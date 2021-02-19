@@ -42,6 +42,7 @@ class TictacToe{
                         int pos;
                         cin>>pos;
                         getMove(pos,"Player1");
+                        break;
                     }
 
                 case 2:
@@ -54,6 +55,7 @@ class TictacToe{
                         int pos;
                         cin>>pos;
                         getMove(pos,"Player1");
+                        break;
                     }
                  case 3:
                     if(block[0][2] == ' '){
@@ -65,6 +67,7 @@ class TictacToe{
                         int pos;
                         cin>>pos;
                         getMove(pos,"Player1");
+                        break;
                     }
                  case 4:
                     if(block[1][0] == ' '){
@@ -76,6 +79,7 @@ class TictacToe{
                         int pos;
                         cin>>pos;
                         getMove(pos,"Player1");
+                        break;
                     }
                  case 5:
                     if(block[1][1] == ' '){
@@ -87,6 +91,7 @@ class TictacToe{
                         int pos;
                         cin>>pos;
                         getMove(pos,"Player1");
+                        break;
                     }
                  case 6:
                     if(block[1][2] == ' '){
@@ -98,6 +103,7 @@ class TictacToe{
                         int pos;
                         cin>>pos;
                         getMove(pos,"Player1");
+                        break;
                     }
                  case 7:
                     if(block[2][0] == ' '){
@@ -109,6 +115,7 @@ class TictacToe{
                         int pos;
                         cin>>pos;
                         getMove(pos,"Player1");
+                        break;
                     }
                  case 8:
                     if(block[2][1] == ' '){
@@ -120,6 +127,7 @@ class TictacToe{
                         int pos;
                         cin>>pos;
                         getMove(pos,"Player1");
+                        break;
                     }
                  case 9:
                     if(block[2][2] == ' '){
@@ -131,12 +139,14 @@ class TictacToe{
                         int pos;
                         cin>>pos;
                         getMove(pos,"Player1");
+                        break;
                     }
                 default:
                     cout<<"Invalid move try again"<<endl;
                         int pos;
                         cin>>pos;
                         getMove(pos,"Player1");
+                        break;
             }
             }
             else if(p == "Player2"){
@@ -151,6 +161,7 @@ class TictacToe{
                         int pos;
                         cin>>pos;
                         getMove(pos,"Player2");
+                        break;
                     }
 
                 case 2:
@@ -163,6 +174,7 @@ class TictacToe{
                         int pos;
                         cin>>pos;
                         getMove(pos,"Player2");
+                        break;
                     }
                  case 3:
                     if(block[0][2] == ' '){
@@ -174,6 +186,7 @@ class TictacToe{
                         int pos;
                         cin>>pos;
                         getMove(pos,"Player2");
+                        break;
                     }
                  case 4:
                     if(block[1][0] == ' '){
@@ -185,6 +198,7 @@ class TictacToe{
                         int pos;
                         cin>>pos;
                         getMove(pos,"Player2");
+                        break;
                     }
                  case 5:
                     if(block[1][1] == ' '){
@@ -196,6 +210,7 @@ class TictacToe{
                         int pos;
                         cin>>pos;
                         getMove(pos,"Player2");
+                        break;
                     }
                  case 6:
                     if(block[1][2] == ' '){
@@ -207,6 +222,7 @@ class TictacToe{
                         int pos;
                         cin>>pos;
                         getMove(pos,"Player2");
+                        break;
                     }
                  case 7:
                     if(block[2][0] == ' '){
@@ -218,6 +234,7 @@ class TictacToe{
                         int pos;
                         cin>>pos;
                         getMove(pos,"Player2");
+                        break;
                     }
                  case 8:
                     if(block[2][1] == ' '){
@@ -229,6 +246,7 @@ class TictacToe{
                         int pos;
                         cin>>pos;
                         getMove(pos,"Player2");
+                        break;
                     }
                  case 9:
                     if(block[2][2] == ' '){
@@ -240,12 +258,14 @@ class TictacToe{
                         int pos;
                         cin>>pos;
                         getMove(pos,"Player2");
+                        break;
                     }
                 default:
                     cout<<"Invalid move try again"<<endl;
                         int pos;
                         cin>>pos;
                         getMove(pos,"Player2");
+                        break;
             }
             }
             
