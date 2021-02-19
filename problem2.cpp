@@ -37,12 +37,6 @@ int main(){
 
     cout<<temp;
 
-
-
-
- 
-   
-
     return 0;
 
 }
